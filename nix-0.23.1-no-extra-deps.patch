@@ -1,0 +1,11 @@
+diff -up nix-0.23.1/Cargo.toml.omv~ nix-0.23.1/Cargo.toml
+--- nix-0.23.1/Cargo.toml.omv~	2022-01-28 03:45:15.183114587 +0100
++++ nix-0.23.1/Cargo.toml	2022-01-28 03:45:43.438430943 +0100
+@@ -77,7 +77,3 @@ version = "3.2.0"
+ version = "0.5.1"
+ [target."cfg(not(target_os = \"redox\"))".dependencies.memoffset]
+ version = "0.6.3"
+-[target."cfg(target_os = \"dragonfly\")".build-dependencies.cc]
+-version = "1"
+-[target."cfg(target_os = \"freebsd\")".dev-dependencies.sysctl]
+-version = "0.1"
