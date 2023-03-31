@@ -5,7 +5,7 @@
 
 Name:           rust-%{crate}
 Version:        0.23.1
-Release:        1
+Release:        2
 Summary:        Rust friendly bindings to *nix APIs
 
 # Upstream license specification: MIT
